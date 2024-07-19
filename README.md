@@ -1,16 +1,21 @@
 Project Name :- Library Management System using Django
+
 Description :- This project implements a web-based library management system using Django, 
 allowing administrators to manage books, authors, and borrowing records. 
 It includes features for adding, editing, and exporting data to Excel.
 
 Set up:-
 1) Clone the Repository:- To clone the project from the Repository
+
    git clone https://github.com/mayurkhangar1/Python-Django-Task.git
-2) install dependencies:- To install project dependencies using pip
+3) install dependencies:- To install project dependencies using pip
+
    pip install -r requirements.txt
-3) apply migration:- to set up the database schema
+4) apply migration:- to set up the database schema
+
    python manage.py migrate
-4) run the server:- to start the development server
+5) run the server:- to start the development server
+
    python manage.py runserver
 
 Usage :- Access the Django admin interface at `http://localhost:8000/admin/` to manage Authors, Books, and Borrow Records.
